@@ -2,39 +2,39 @@
 
 
 [[nodiscard("you must check if the virtualMachine ran correctly or not.")]] 
-auto virtualMachine (std::vector<Instructions> & program) noexcept -> bool { 
-    std::array<Instructions, 100> stack; 
-    size_t programCounter {}; 
-    size_t stackPointer {};
+auto virtualMachine (std::vector<int64_t> & program) noexcept -> bool { 
+    std::array<int64_t, 100> stack; 
+    int64_t programCounter {}; 
+    int64_t stackPointer {};
     while (programCounter < program.size()) { 
-        Instructions currentInstruction {static_cast<Instructions>(program[programCounter])};
+        int64_t currentInstruction {program[programCounter]};
         switch (currentInstruction) { 
             case PUSH:
-                stack[stackPointer] = static_cast<Instructions>(program[programCounter+1]);
+                stack[stackPointer] = program[programCounter+1];
                 stackPointer++;
                 programCounter++;
                 break;
             case ADD: { 
-                int right = stack[stackPointer-1];
+                int64_t right = stack[stackPointer-1];
                 stackPointer--;
-                int left = stack[stackPointer-1];
+                int64_t left = stack[stackPointer-1];
                 stackPointer--;
-                stack[stackPointer] = static_cast<Instructions>(left + right);
+                stack[stackPointer] = left + right;
                 stackPointer++;
                 break;
             }
             case MINUS: {
-                int right = stack[stackPointer-1];
+                int64_t right = stack[stackPointer-1];
                 stackPointer--;
-                int left = stack[stackPointer-1];
+                int64_t left = stack[stackPointer-1];
                 stackPointer--; 
-                stack[stackPointer] = static_cast<Instructions>(left - right);
+                stack[stackPointer] = left - right;
                 stackPointer++;
                 break;
             }
         } 
         programCounter++;
     } 
-    std::print("stacktop: {}", static_cast<int>(stack[stackPointer-1]));
+    std::print("stacktop: {}", stack[stackPointer-1]);
     return 0;
 }

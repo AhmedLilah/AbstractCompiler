@@ -10,11 +10,11 @@
 
 
 auto main(int argc, char ** argv) -> int {
-    logger::printInfoCard();
-    auto vecCLIArgsData = frontend::parseCommandlineArgs(argc, argv);
-    frontend::invokeFrontend(vecCLIArgsData);
+    // logger::printInfoCard();
+    // auto vecCLIArgsData = frontend::parseCommandlineArgs(argc, argv);
+    // frontend::invokeFrontend(vecCLIArgsData);
 
-    std::vector<Instructions> program{PUSH, static_cast<Instructions>(3), PUSH, static_cast<Instructions>(4), ADD, PUSH, static_cast<Instructions>(5), MINUS};
+    std::vector<int64_t> program{PUSH, static_cast<Instructions>(3), PUSH, static_cast<Instructions>(4), ADD, PUSH, static_cast<Instructions>(5), MINUS};
     auto result = virtualMachine(program);
     return 0;
 }

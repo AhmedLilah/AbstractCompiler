@@ -3,7 +3,7 @@
 #include "../Utilities/CppLanguageInhancement.hpp"
 
 namespace frontend {
-bool debugMode {true};
+bool debugMode {};
 
 std::vector<std::tuple<std::string, CLIArgs>> stringToCLIArgsVect {
     {"-i", CLIArgs::InputNetlistName}
