@@ -8,7 +8,6 @@
 #include <print>
 
 
-
 auto main(int argc, char ** argv) -> int {
     // logger::printInfoCard();
     // auto vecCLIArgsData = frontend::parseCommandlineArgs(argc, argv);
