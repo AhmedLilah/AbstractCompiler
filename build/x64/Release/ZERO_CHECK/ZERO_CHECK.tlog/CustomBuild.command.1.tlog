@@ -1,0 +1,10 @@
+^D:\ENGINEERING\SOFTWARE\PROJECTS\ABSTRACTPLUSPLUS\BUILD\CMAKEFILES\159B9D5E789BDA000FCCEED0235343E1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Engineering/Software/Projects/AbstractPlusPlus -BD:/Engineering/Software/Projects/AbstractPlusPlus/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Engineering/Software/Projects/AbstractPlusPlus/build/A++.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
