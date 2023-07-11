@@ -5,7 +5,7 @@
 #include "frontend/Frontend.hpp"
 #include "helpers/Logger.hpp"
 #include "lib/VirtualMachine.hpp"
-#include "utilities/CppLanguageInhancement.hpp"
+#include "util/CppLanguageInhancement.hpp"
 
 #include <functional>
 #include <stack>
