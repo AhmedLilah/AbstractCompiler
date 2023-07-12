@@ -1,4 +1,4 @@
-#include "VirtualMachine.hpp"
+#include "lib/VirtualMachine.hpp"
 
 
 [[nodiscard("you must check if the virtualMachine ran correctly or not.")]] 

@@ -173,9 +173,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\src\abstract_library.vcxproj">
-      <Project>{F58C31C6-E88B-3427-84E5-E67A67A2EFAA}</Project>
-      <Name>abstract_library</Name>
+    <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\src\frontend.vcxproj">
+      <Project>{9CC54ECA-DBF7-32A3-A1D7-F260CDFE6847}</Project>
+      <Name>frontend</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\src\helpers.vcxproj">
+      <Project>{EB21E7B7-A76F-37D8-B1CA-0BE8991F3102}</Project>
+      <Name>helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\src\lib.vcxproj">
+      <Project>{4B8B370C-869D-34E6-8741-B0041420FE1E}</Project>
+      <Name>lib</Name>
     </ProjectReference>
     <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\main\main.vcxproj">
       <Project>{05CD9222-8778-3F0A-9796-259560D01D70}</Project>

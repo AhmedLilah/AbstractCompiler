@@ -1,5 +1,5 @@
 #include <string>
-#include "../Utilities/CppLanguageInhancement.hpp"
+#include "util/CppLanguageInhancement.hpp"
 
 namespace token {
 enum class TokenType {

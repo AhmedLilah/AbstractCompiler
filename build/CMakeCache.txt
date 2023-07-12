@@ -24,9 +24,6 @@ A++_IS_TOP_LEVEL:STATIC=OFF
 A++_SOURCE_DIR:STATIC=D:/Engineering/Software/Projects/AbstractPlusPlus/main
 
 //Whether or not to build examples
-BUILD_EXAMPLE:BOOL=ON
-
-//Whether or not to build examples
 BUILD_MAIN:BOOL=ON
 
 //Path to a program.

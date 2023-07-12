@@ -18,9 +18,9 @@
 #include <chrono>
 #include <filesystem>
 #include <ranges>
-#include "../lib/Token.hpp"
-#include "../lib/Compiler.hpp"
-#include "../Utilities/CppLanguageInhancement.hpp"
+#include "lib/Token.hpp"
+#include "lib/Compiler.hpp"
+#include "util/CppLanguageInhancement.hpp"
 
 namespace frontend {
 enum class CLIArgs {

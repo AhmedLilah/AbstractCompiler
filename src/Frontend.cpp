@@ -1,6 +1,6 @@
 #include <exception>
-#include "Frontend.hpp"
-#include "../Utilities/CppLanguageInhancement.hpp"
+#include "frontend/Frontend.hpp"
+#include "util/CppLanguageInhancement.hpp"
 
 namespace frontend {
 bool debugMode {};
