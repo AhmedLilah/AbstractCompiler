@@ -1,6 +1,6 @@
 project(A++)
 
-add_executable(main main.cpp)
+add_executable(A++ main.cpp)
 
 target_link_libraries(main
         PRIVATE
