@@ -173,6 +173,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\main\A++.vcxproj">
+      <Project>{74C647C8-E0AB-3887-9A8E-80F9015E2555}</Project>
+      <Name>A++</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\src\frontend.vcxproj">
       <Project>{9CC54ECA-DBF7-32A3-A1D7-F260CDFE6847}</Project>
       <Name>frontend</Name>
@@ -184,10 +188,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\src\lib.vcxproj">
       <Project>{4B8B370C-869D-34E6-8741-B0041420FE1E}</Project>
       <Name>lib</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\Engineering\Software\Projects\AbstractPlusPlus\build\main\main.vcxproj">
-      <Project>{05CD9222-8778-3F0A-9796-259560D01D70}</Project>
-      <Name>main</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

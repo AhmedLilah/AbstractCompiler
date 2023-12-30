@@ -3,10 +3,10 @@
     "revision": 0,
     "rules": [
         {
-            "primary-output": "Frontend.dir\\Release\\std.ixx.obj",
+            "primary-output": "frontend.dir\\Release\\std.ixx.obj",
             "outputs": [
-                "Frontend.dir\\Release\\",
-                "D:\\Engineering\\Software\\Projects\\AbstractPlusPlus\\build\\src\\Frontend.dir\\Release\\std.ixx.ifc"
+                "frontend.dir\\Release\\",
+                "D:\\Engineering\\Software\\Projects\\AbstractPlusPlus\\build\\src\\frontend.dir\\Release\\std.ixx.ifc"
             ],
             "provides": [
                 {

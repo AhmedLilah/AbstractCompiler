@@ -7,7 +7,7 @@
         "ImportedModules": [
             {
                 "Name": "std",
-                "BMI": "D:\\Engineering\\Software\\Projects\\AbstractPlusPlus\\build\\src\\Frontend.dir\\Release\\std.ixx.ifc"
+                "BMI": "D:\\Engineering\\Software\\Projects\\AbstractPlusPlus\\build\\src\\frontend.dir\\Release\\std.ixx.ifc"
             }
         ],
         "ImportedHeaderUnits": []
