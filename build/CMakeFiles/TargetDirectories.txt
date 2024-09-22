@@ -1,6 +1,0 @@
-D:/Engineering/Software/Projects/AbstractPlusPlus/build/CMakeFiles/ALL_BUILD.dir
-D:/Engineering/Software/Projects/AbstractPlusPlus/build/CMakeFiles/ZERO_CHECK.dir
-D:/Engineering/Software/Projects/AbstractPlusPlus/build/src/CMakeFiles/frontend.dir
-D:/Engineering/Software/Projects/AbstractPlusPlus/build/src/CMakeFiles/helpers.dir
-D:/Engineering/Software/Projects/AbstractPlusPlus/build/src/CMakeFiles/lib.dir
-D:/Engineering/Software/Projects/AbstractPlusPlus/build/main/CMakeFiles/A++.dir
